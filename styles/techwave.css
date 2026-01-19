@@ -51,6 +51,12 @@ nav{
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 400;
+    
+}
+
+.nav-menu ul li a:hover{
+     background-color: rgba(240, 248, 255, 0.241);
+         
 }
 
 .navbar button{
@@ -61,14 +67,24 @@ nav{
     border-radius: 10000px;
     padding:12px 16px;
     cursor: pointer;
+     transition: transform 1s;
 }
+
+.navbar button:hover{
+        background-color: rgba(240, 248, 255, 0.241);
+         transform:  scale(0.80)  ;
+    }
 
 .navbar .hamburger{
     color: #FFFFFF;
    
     margin-right: 50px;
+    transition: transform 1s;
 }
-
+.navbar .hamburger:hover{
+     background-color: rgba(240, 248, 255, 0.241);
+         transform:  scale(0.80)  ;
+}
 
 
 #hero{
@@ -156,6 +172,11 @@ nav{
     padding:12px 16px;
     cursor: pointer;
     margin-right: 6px;
+     transition: transform 1s;
+}
+#hero .hero-content button:hover{
+     background-color: rgba(240, 248, 255, 0.241);
+         transform:  scale(0.80)  ;
 }
 
 #hero .hero-content .subscribe{
@@ -325,8 +346,13 @@ hr{
     max-width: 380px;
     background-color: #250D44;
     border-radius: 20px;
+    transition: transform 1s;
     
 
+}
+.feature-card .video-card:hover{
+     background-color: rgba(240, 248, 255, 0.241);
+         transform:  scale(0.80)  ;
 }
 
 .feature-card .video-card iframe{
@@ -541,7 +567,10 @@ hr{
     .navbar button{
         margin-right:20px ;
         
+        
     }
+    
+
 
     .about-review{
     flex-wrap: wrap;
