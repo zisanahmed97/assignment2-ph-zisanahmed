@@ -293,6 +293,72 @@ hr{
   grid-row: span 2;
 }
 
+#feature{
+    background-color: #1A0B2E;
+}
+
+#feature .feature-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0px;
+    
+}
+#feature .feature-container .feature-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 46px;
+
+}
+
+.feature-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature-card .video-card{
+    max-width: 380px;
+    background-color: #250D44;
+    border-radius: 20px;
+    
+
+}
+
+.feature-card .video-card iframe{
+    max-width: 380px;
+    height: 214px;
+    margin-bottom: 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.feature-card .video-card h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 0 24px;
+}
+
+.feature-card .video-card  p{
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding: 0 24px;
+}
+.feature-card .video-card  h4{
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+    padding: 0 24px;
+    
+}
+
+
+
+
+
 
  
 
@@ -338,7 +404,9 @@ hr{
     grid-column: span 1 !important;
     grid-row: auto !important;
   }
-
+.feature-card{
+    flex-direction: column;
+}
 
 
 
@@ -365,6 +433,9 @@ hr{
   .card {
     grid-column: span 1 !important;
     grid-row: auto !important;
+  }
+  .feature-card{
+    flex-wrap: wrap;
   }
 }
 
