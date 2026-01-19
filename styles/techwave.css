@@ -29,7 +29,7 @@ nav{
     align-items: center;
     padding: 30px 0px 24px 0px;
     background-color: #1A0B2E;
-    border-bottom: 1px solid  rgba(240, 248, 255, 0.096);;
+    border-bottom: 1px solid  rgba(240, 248, 255, 0.096);
     
 }
 .navbar .nav-title{
@@ -90,6 +90,8 @@ nav{
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+
+      
       
      
 }
@@ -98,6 +100,7 @@ nav{
     position: relative;
     width: 350px;
     max-width: 350px;
+    
 }
 #hero .hero-image .circle{
  width: 100%;
@@ -354,11 +357,106 @@ hr{
     padding: 0 24px;
     
 }
+#alex{
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
 
+.alex-container{
+    max-width: 1200px;
+    margin: 0 auto ;
+    
 
+}
+.alex-title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.alex-kumar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35116551;
+    gap: 24px;
+    padding-bottom: 60px;
+     border: none;
+    border-radius: 40px;
+   
+}
 
+.alex-pic{
+    max-width: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.alex-content{
+    max-width: 896px;
+}
 
+.alex-content h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.alex-content p{
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.alex-logo{
+    display: flex;
+    gap:8px;
+  
+}
 
+.alex-logo img{
+      border: 1px solid whitesmoke;
+    border-radius: 50%;
+    max-width: 50px;
+    padding: 12px;
+}
+
+#copyright{
+    background-color: #1A0B2E;
+    padding: 120px 0px;
+    background: url(../assets/footer-bg.png);
+     background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+}
+.copyright-container{
+    max-width: 1360px;
+    margin: 0 auto;
+   
+}
+
+.copyright-container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.social{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.social .social-logo{
+    display: flex;
+    gap: 10px;
+}
+
+ .small{
+   text-align: center;
+   font-size: 1rem;
+   color: #FAFAFA;
+ }
 
  
 
@@ -407,6 +505,25 @@ hr{
 .feature-card{
     flex-direction: column;
 }
+
+.alex-kumar{
+    flex-direction: column;
+}
+
+.alex-kumar .alex-content{
+    text-align: center;
+}
+
+.alex-kumar .alex-logo{
+    justify-content: center;
+}
+
+.social{
+    flex-direction: column;
+    
+    align-items: center;
+}
+
 
 
 
