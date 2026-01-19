@@ -426,6 +426,7 @@ hr{
      background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+
 }
 .copyright-container{
     max-width: 1360px;
@@ -489,6 +490,10 @@ hr{
     padding: 80px 20px;
   }
 
+  #hero .hero-image{
+    width: 260px;
+  }
+
   .about-review{
     flex-wrap: wrap;
     gap: 50px;
@@ -517,7 +522,7 @@ hr{
 .alex-kumar .alex-logo{
     justify-content: center;
 }
-
+ 
 .social{
     flex-direction: column;
     
