@@ -206,14 +206,14 @@ hr{
     align-items: center;
 }
 
-.about-review .card h3{
+.about-review .about-card h3{
     color: #00FF88;
     font-size: 3rem;
     font-weight: 600;
 
 }
 
-.about-review .card  p{
+.about-review .about-card  p{
     font-size: 1rem;
 }
 
