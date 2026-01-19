@@ -165,6 +165,57 @@ nav{
      cursor: pointer;
 }
 
+#about{
+    background-color:#1A0B2E ;
+}
+
+#about .about-container{
+    padding: 50px 0px 120px 0px;
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+#about .about-container .about-content{
+    text-align: center;
+}
+
+.about-content h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.about-content p{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-bottom: 80px;
+   
+}
+
+hr{
+    color: rgba(240, 248, 255, 0.096);
+    margin-bottom: 80px;
+}
+
+.about-review{
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-review .card h3{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.about-review .card  p{
+    font-size: 1rem;
+}
+
     
 
 
@@ -197,9 +248,18 @@ nav{
 
   #hero .hero-container {
     background-size: cover;
-    background-position: top center;
+    /* background-position: top center; */
     padding: 80px 20px;
   }
+
+  .about-review{
+    flex-wrap: wrap;
+    gap: 50px;
+
+  }
+
+
+
 
 }
 
@@ -211,6 +271,12 @@ nav{
         margin-right:20px ;
         
     }
+
+    .about-review{
+    flex-wrap: wrap;
+    gap: 50px;
+
+  }
 }
 
 
